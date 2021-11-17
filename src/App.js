@@ -3,22 +3,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div class="main">
+        <h1>Pop Tunes</h1>
+        <div class="subtitle">
+          Listen to your favorite artist based on how popular their 
+          songs are to all their fans!
+        </div>
+      </div>
   );
 }
 
